@@ -1,0 +1,33 @@
+/* Стилі для розташування двох пар квадратів */
+.flags-row {
+    display: flex; /* Розташовує елементи в ряд */
+    gap: 20px; /* Відстань між кожною парою */
+    margin-top: 20px;
+  }
+  
+  .flag-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .flag {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+  }
+  
+  /* Позиціонування перших двох квадратів */
+  .position-method {
+    background-color: #e67e22; /* Помаранчевий */
+    top: 0;
+    left: 0;
+  }
+  
+  .transform-method {
+    background-color: #8b2e2d; /* Темно-червоний */
+    top: 50px;
+    left: 50px;
+  }
+  
